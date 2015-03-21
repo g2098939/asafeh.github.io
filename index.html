@@ -2,11 +2,26 @@
 layout: default
 title: Asafe Ribeiro
 ---
-<div class="name">
-    ASAFE RIBEIRO
+<div>
+    <span class="name takes20">ASAFE RIBEIRO</span><span class="musing">random musings</span>  
 </div>
-<div class="info">
-    <i class="fa fa-home"></i>&nbsp;São Paulo, Brazil<br>    
-    <a href="https://github.com/asafeh/"><i class="fa fa-github"></i>&nbsp;github</a><br>     
-    <a href="mailto:azafeh@azafeh.com"><i class="fa fa-envelope"></i>&nbsp;email</a>
+<div>
+    <div class="takes20">              
+        <div class="profession">Software Developer</div>
+        <div class="info">
+            <a href="https://www.google.com.br/maps/place/Sao+Jose+de+Rio+Preto+-+State+of+S%C3%A3o+Paulo/@-20.8168139,-49.3823555,12z/data=!3m1!4b1!4m2!3m1!1s0x94bdad614c2df789:0x8f2fb0f070642c09?hl=en"><i class="fa fa-home"></i>&nbsp;são paulo, brazil</a><br>  
+            <a href="media/asafe-resume.pdf" download="asafe-resume.pdf"><i class="fa fa-github"></i>&nbsp;resume</a><br>       
+            <a href="https://github.com/asafeh/"><i class="fa fa-github"></i>&nbsp;github</a><br>     
+            <a href="mailto:azafeh@azafeh.com"><i class="fa fa-envelope"></i>&nbsp;email</a>
+        </div>
+    </div>
+    <div class="takes75">
+        <ul>            
+            {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
