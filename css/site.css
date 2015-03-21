@@ -63,7 +63,11 @@ a:hover {
     width: 75%;       
 }
 
-.name {        
+.name{
+    display: inline-block;
+}
+
+.name a{        
     font-family: Georgia, serif;
     line-height: 1.7em;        
     letter-spacing: 1px;    
