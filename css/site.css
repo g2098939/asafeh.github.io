@@ -119,4 +119,9 @@ p {
     p {
         text-align: justify;
     }
+
+    ul li {
+        display: inline;
+        padding-right:5px; 
+    }
 }
