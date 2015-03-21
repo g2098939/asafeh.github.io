@@ -104,6 +104,17 @@ p {
     font-size: 0.5em;
 }
 
+
+@media only screen and (max-width: 1700px){
+    .takes20{
+        width: 30%;
+        margin-right:5%;
+    }
+    .takes75 {
+        width: 65%;
+    }
+}
+
 @media only screen and (max-device-width: 800px){
     .content {
         margin: 2%;
