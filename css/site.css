@@ -4,7 +4,11 @@ html {
     line-height: 1; 
     background-color: #fafafa;
     text-shadow: 1px 1px 0px #fff;   
-    width: 100%
+    width: 100%;
+    font-family:Georgia,sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #333;
 }
 
 ol, ul { list-style: none; }
@@ -21,10 +25,7 @@ a img { border: none; }
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
 body {
-    font-family:Georgia,sans-serif;
-    font-size: 16px;
-    line-height: 1.8em;
-    color: #333;
+    width: 100%;
 }
 
 * {
@@ -49,6 +50,11 @@ a:hover {
     color: #459eca;
 }
 
+p {
+    line-height: 1.2em;
+    font-size: 1.2em;
+}
+
 .content {
     width: 80%;   
     margin:3% 10%;        
@@ -60,11 +66,11 @@ a:hover {
 }
 
 .takes75 {
-    width: 75%;       
+    width: 75%;           
 }
 
-.name{
-    display: inline-block;
+.name, .title {
+    height: 3.2em;  
 }
 
 .name a{        
@@ -75,8 +81,15 @@ a:hover {
     display: inline-block;    
 }
 
-.musing{        
-    color: #459eca;    
+.title{        
+    font-family: Georgia, sans-serif;
+    color: #459eca;               
+    display: table;
+}
+
+.title span {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .info, .profession {
@@ -89,4 +102,10 @@ a:hover {
 
 .fa {
     font-size: 0.5em;
+}
+
+@media only screen and (max-device-width: 800px){
+    .takes20, .takes80 {
+        width: 100%;
+    }
 }
