@@ -155,7 +155,7 @@ blockquote {
 
 @media only screen and (max-device-width: 800px){
     .content {
-        margin: 2%;
+        margin: 0;
         text-align: center;
         width: 100%;
     }
@@ -170,7 +170,7 @@ blockquote {
         padding: 5px;
     }
 
-    ul li {
+    .info li {
         display: inline;
         padding-right:5px; 
     }
