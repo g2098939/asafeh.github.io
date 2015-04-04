@@ -24,6 +24,10 @@ a img { border: none; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
+em {
+    font-style: italic;
+}
+
 body {
     width: 100%;
 }
@@ -51,9 +55,42 @@ a:hover {
 }
 
 p {
-    line-height: 1.2em;
+    line-height: 1.5em;
     font-size: 1.2em;
+    margin: 15px 0px;
 }
+blockquote {
+            font-family: Georgia, serif;
+            font-size: 18px;
+            font-style: italic;
+            
+            margin: 0.25em 0;
+            padding: 0.25em 40px;
+            line-height: 1.45;
+            position: relative;
+            color: #383838;
+        }
+
+        blockquote:before {
+            display: block;
+            content: "\201C";
+            font-size: 80px;
+            position: absolute;
+            left: -20px;
+            top: -20px;
+            color: #459eca;
+        }
+
+        blockquote cite {
+            color: #999999;
+            font-size:0.8em;
+            display: block;
+            margin-top: 5px;
+        }
+
+        blockquote cite:before {
+            content: "\2014 \2009";
+        }
 
 .content {
     width: 80%;   
@@ -82,12 +119,13 @@ p {
 }
 
 .title{        
-    font-family: Georgia, sans-serif;
-    color: #459eca;               
+    font-family: Georgia, sans-serif;    
     display: table;
 }
 
-.title span {
+.title a {
+    color: #459eca;               
+    font-variant: normal;
     display: table-cell;
     vertical-align: middle;
 }
@@ -136,4 +174,8 @@ p {
         display: inline;
         padding-right:5px; 
     }
+}
+
+.post-list {
+    text-transform: lowercase;
 }

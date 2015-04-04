@@ -1,0 +1,1 @@
+Yes, that's an essay to show that the true villain in Hokuto no Ken is, in fact, Love.
