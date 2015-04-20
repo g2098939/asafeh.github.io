@@ -1,3 +1,8 @@
+---
+layout: default
+title: Why I am an agnostic
+---
+
 One thing that often come up when you meet new people is what your religious affiliations are. Here, I usually make a untranslatable joke ("sou à toa"), nevertheless a detailed answer is required sometimes. Then I get blank stares when I say I am an agnostic- even though the reasons are not ground breaking to those in the skeptic community or faith apologetics. I believe (heh) it is because there exists a common image of atheists, and by extension agnostics, as angry, disappointed in God people, who demean believers and judge them intellectually challenged because of their faith. Of course, _there are_ non-believers as such (likewise exists extremist believers) however I don't consider myself any of that. I am also far from an expert in all existing religions, so I will group all of their claims (spirituality, dogmas, non-physical entities, etc.) together as the "supernatural" as to explain some of the _actual_ motives why no religion currently appeals to me.
 
 1. Lack of supernatural in our daily lives
